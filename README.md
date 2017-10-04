@@ -14,20 +14,19 @@ A Burp Suite content discovery plugin that add the smart into the Buster!
 
 * Looks for files, directories and file extensions based on current requests received by Burp Suite
 * Checks for:
- * Directories in the current URL directories
- * Files in the current URL directories 
- * Replace and add extension to current files
- * Add suffix and prefix to current files
+  * Directories in the current URL directories
+  * Files in the current URL directories 
+  * Replace and add extension to current files
+  * Add suffix and prefix to current files
 * Easy and documented code
 * Verbose and logging 
 
 # Todos
 
-* Technological and environment checks (PHP, IIS, Apache, SharePoint, etc.)
-* Add a GUI
+* In progress: Technological and environment checks (PHP, IIS, Apache, SharePoint, etc.)
+* In progress: Community data
 * Limit Thread speed
 * Use the spidering results for actual brute forcing
-* Adjust the 404 detection function
 
 ## Presentations and release date
 

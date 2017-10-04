@@ -54,6 +54,7 @@ from java.awt.datatransfer import StringSelection
 from array import array
 from java.io import PrintWriter
 from java.net import URL
+import os
 import ConfigParser
 import json
 import logging
