@@ -1336,7 +1336,7 @@ class RequestorWorker(threading.Thread):
             if response.status_code in self._acceptedCode:
                 #add no false positive to site map
                 code = self._getError404(url)
-                print "[URL EXISTS](Response: " +str(response.status_code)+ ") | 404 type:" + str(code) +" | FOR URL: "+ str(url)
+                print "[URL EXISTS](Response: " +str(response.status_code)+ ") | 404 type:" + str(code) +" | FOR URL: "+ str(url)
 
                 #False positive logic.
                 #TODO: can be update or upgraded for sure! :)
